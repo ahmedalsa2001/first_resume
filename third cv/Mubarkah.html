@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Software Engineer Resume</title>
+    <link rel="stylesheet" href="path/to/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<style>
+
+*{
+    transition: .5s;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+    background-color: #acc9dc;
+    color: rgb(2, 43, 54);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+main {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50px;
+}
+.image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+.article {
+    position: relative;
+    padding: 70px;
+    text-align: center;
+    background-color: rgba(16, 14, 14, 0.5) ;
+    color: rgb(247, 249, 250);
+    border-radius: 50px;
+    font-weight: bold;
+}
+p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.contact {
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-weight: bold;
+}
+.contact p {
+    margin-bottom: 5px;
+    /* background-color: #415763; */
+border-radius: 20px;
+padding: 10px;
+cursor: pointer;
+}
+.contact p:hover{
+background-color: #43a0df;
+}
+.contact i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+header {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #100f0f;
+  }  
+  header h2 {
+    font-size: 20px;
+    
+    color: #161617;
+  }
+  header img {
+    width: 50px;
+    height: 50px;
+    border-radius:50px 50px;
+  }
+.head1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;  
+
+}
+h1 {
+    font-size: 2em; 
+     
+}
+h2 {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+#button {
+    background-color: #6795ce; 
+    border: none;
+    color: rgb(8, 8, 8);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#button:hover {
+    background-color: #4c709c; 
+}
+#button{
+    color: #e2e8ec;
+}
+
+
+
+</style>
+
+   
+</head>
+<body>
+    
+    <header>
+        <div class="head1">
+    
+            <h2> Ahmed alsabaei</h2>
+            <img src="profile.jpeg" alt="Your Profile Picture">
+            </div>
+        <h1> Programmer</h1>
+
+  </header>
+
+  <main>
+    <img src="4.png" alt="" class="image">
+    <div class="article">
+        <h1>welcome to My Resume</h1>
+        <p>I am a programmer specializing in website and system development. I am passionate about my work and find joy in creating functional and user-friendly solutions using various programming languages and frameworks. I continuously strive to improve my skills and stay up-to-date with the latest technologies in order to deliver high-quality results. I take pride in my ability to transform ideas into reality through coding, and I am dedicated to providing efficient and effective solutions for clients.
+             Programming is not just a job for me; it is an exciting journey that I am grateful to be a part of.</p>
+             
+             <a href="tg:///" id="button"  onclick="telegram()"><span class="fab fa-telegram"></span> Telegram </a>
+             <a href="#" id="button"    onclick="printing()" ><span class="fas fa-download"></span> Download</a>
+             
+<br><br>
+<h1>Contact Info</h1>
+             <div class="contact">
+                
+                <p onclick="location_message()"><i class="fas fa-location"></i> My Location: alryadht</p>
+                <p onclick="email_message()"><i class="fas fa-envelope"></i>My Email: ahmed03791@gmail.com</p>
+                <p onclick="phone_message()"><i class="fas fa-phone"></i> My Phone: 050144062734613</p>
+                
+           </div>
+    </div>
+</main>
+
+
+   
+</body>
+
+
+<script>
+
+function printing(){
+    window.print();
+}
+
+function email_message(){
+    alert("This is Email of  Mubarkah Alkarbi");
+}
+function phone_message(){
+    alert("This is Mopile of  Mubarkah Alkarbi");   
+}
+
+function telegram(){
+    alert("welcome to Mubarkah Account");
+}
+
+function location_message(){
+    alert("This is to Mubarkah location");
+
+}
+
+
+</script>
+</html>
