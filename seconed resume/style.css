@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    color:0000;
+    background-image: url("2.jpg");  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:500px;
+  }
+  
+  .header {
+        display: flex;
+  align-items: center;
+    color: aliceblue;
+    background-color: #5c9a84;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative; 
+  }
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+  .header-content {
+    margin-left: 15px; 
+  }
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  
+
+
+  .main-content {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-top: 80px;
+    justify-content: space-around; 
+  }
+  
+  section {
+    width: 400px;
+    height: 300px;
+    padding: 10px;
+    margin: 50px;
+    border:  solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .about-me{
+    margin-right:150px ;
+    font-weight: bold;
+  }
+  
+  .about-me p:nth-child(2) {
+    font-weight: bold;
+  }
+  
+  .skills ul {
+    padding: 10px;
+    margin: 0;
+    
+  }
+  
+  .skills li {
+    margin-bottom: 5px;
+  }
+  
+  .buttons {
+    text-align: center;
+    margin: 20px auto; 
+  }
+  
+  .buttons a {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+  } 
+
+.buttons a {
+  align-items: center;
+  padding: 10px 15px;
+  background-color: #529274;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.buttons a i {
+  margin-right: 10px;
+}
+
+.buttons a:hover {
+  background-color: #1a5330;
+}
+.about-me i{
+    color: #4CAF50;
+    
+}
+.about-me a{
+    color: #4CAF50;
+    list-style: none;
+}
+footer{
+    text-align: center;
+    color: #529274;
+    font-weight: bold;
+}
